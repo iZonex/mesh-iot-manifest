@@ -13,10 +13,10 @@
        "revision": commitish to checkout (if not the default)
        "path": directory where git repository gets cloned/synced -->
 
-  <project name="poky" revision="refs/heads/rocko" remote="yocto" />
-  <project name="meta-openembedded" revision="refs/heads/rocko"  remote="oe" path="poky/meta-openembedded" />
+  <project name="poky" revision="refs/heads/sumo" remote="yocto" />
+  <project name="meta-openembedded" revision="refs/heads/sumo" remote="oe" path="poky/meta-openembedded" />
   <project name="meta-raspberrypi" revision="refs/heads/sumo" remote="yocto" path="poky/meta-raspberrypi" />
-  <project name="meta-virtualization" revision="refs/heads/rocko" remote="yocto" path="poky/meta-virtualization" />
+  <project name="meta-virtualization" revision="refs/heads/sumo" remote="yocto" path="poky/meta-virtualization" />
   <project name="meta-meshiot" revision="master" path="poky/meta-meshiot" />
   <project name="mesh-iot" revision="master" path="poky/build" />
 
