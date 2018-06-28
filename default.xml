@@ -18,6 +18,6 @@
   <project name="meta-raspberrypi" revision="refs/heads/master"  remote="yocto" path="poky/meta-raspberrypi" />
   <project name="meta-virtualization" revision="refs/heads/rocko" remote="yocto" path="poky/meta-virtualization" />
   <project name="meta-meshiot" revision="master" path="poky/meta-meshiot" />
-  <project name="mesh-iot" revision="master" path="build" />
+  <project name="mesh-iot" revision="master" path="poky/build" />
 
 </manifest>
