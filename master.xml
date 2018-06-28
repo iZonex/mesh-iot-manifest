@@ -15,7 +15,7 @@
 
   <project name="poky" revision="refs/heads/rocko" remote="yocto" />
   <project name="meta-openembedded" revision="refs/heads/rocko"  remote="oe" path="poky/meta-openembedded" />
-  <project name="meta-raspberrypi" revision="refs/heads/master"  remote="yocto" path="poky/meta-raspberrypi" />
+  <project name="meta-raspberrypi" revision="refs/heads/sumo" remote="yocto" path="poky/meta-raspberrypi" />
   <project name="meta-virtualization" revision="refs/heads/rocko" remote="yocto" path="poky/meta-virtualization" />
   <project name="meta-meshiot" revision="master" path="poky/meta-meshiot" />
   <project name="mesh-iot" revision="master" path="poky/build" />
